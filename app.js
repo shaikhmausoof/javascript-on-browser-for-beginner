@@ -3,7 +3,7 @@ var textinput = document.querySelector("#textinput");
 var outputDiv = document.querySelector("#output");
 
 function clickHandler (){
-    outputDiv.innerText = textinput.value;
+    outputDiv.innerText = "welcome" + textinput.value;
    
 };
 
